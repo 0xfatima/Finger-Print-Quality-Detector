@@ -45,15 +45,25 @@ A detailed overview of models is provided in **MODELS.md** in this repository
 ## 📁 Project Structure
 
 fingerprintquality/
+
 ├── public/
+
 ├── src/
+
 │ └── app/
+
 │ ├── api/predict/route.js // Server route for prediction
+
 │ ├── detector/page.js // Main frontend component
+
 │ ├── globals.css
+
 │ └── layout.js
+
 ├── .gitignore
+
 ├── package.json
+
 └── README.md
 
 
