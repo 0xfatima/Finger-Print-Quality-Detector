@@ -71,11 +71,11 @@ fingerprintquality/
 ## 🔧 Installation & Running Locally
 
 
-git clone https://github.com/your-username/Finger-Print-Quality-Detector.git
-cd fingerprintquality
-npm install
-npm run dev
-Visit: http://localhost:3000
+- git clone https://github.com/your-username/Finger-Print-Quality-Detector.git
+- cd fingerprintquality
+- npm install
+- npm run dev
+- Visit: http://localhost:3000
 
 ## Future Improvements
 Allow batch uploads.
