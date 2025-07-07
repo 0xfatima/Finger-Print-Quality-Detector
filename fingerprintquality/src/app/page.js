@@ -17,7 +17,7 @@ const page = () => {
 
       {/* Content that scrolls over the image */}
       <div className="flex flex-col items-center  z-1000 px-10 pt-40 text-white">
-        <h1 className="text-center font-extrabold text-9xl font-mono mb-40">
+        <h1 className="text-center font-extrabold text-9xl font-mono mb-40 fade-in">
           DETECT QUALITY
         </h1>
         <Link href='/detector'><button className='bg-gray-300 text-black w-24 h-10 rounded-lg cursor-pointer '>Detect</button></Link>

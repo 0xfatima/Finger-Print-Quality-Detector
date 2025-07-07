@@ -37,7 +37,7 @@ body {
   background-repeat: no-repeat;
   width: var(--card-width);
   height: var(--card-height);
-  padding: 3px;
+  padding: 1px;
   position: relative;
   border-radius: 6px;
   justify-content: center;
@@ -70,6 +70,9 @@ body {
   animation: spinGradient 2.5s linear infinite;
 }
 
+.fade-in {
+  animation: fadeIn 1.2s ease-out forwards;
+}
 @property --rotate {
   syntax: "<angle>";
   initial-value: 132deg;
@@ -84,4 +87,14 @@ body {
     --rotate: 360deg;
   }
 }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 

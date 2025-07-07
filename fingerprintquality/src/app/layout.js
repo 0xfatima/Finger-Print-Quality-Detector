@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { B612_Mono   } from 'next/font/google'
-
+import Header from "./components/Header";
 const b612Mono = B612_Mono({
   subsets: ['latin'],
   variable: '--font-b612-mono',
@@ -27,7 +27,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-         className={b612Mono.variable}>{children}</body>
+         className={b612Mono.variable}>
+          <Header/>
+          {children}
+          </body>
     </html>
   );
 }
