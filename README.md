@@ -45,15 +45,25 @@ A detailed overview of models is provided in **MODELS.md** in this repository
 ## 📁 Project Structure
 
 fingerprintquality/
+
 ├── public/
+
 ├── src/
+
 │ └── app/
+
 │ ├── api/predict/route.js // Server route for prediction
+
 │ ├── detector/page.js // Main frontend component
+
 │ ├── globals.css
+
 │ └── layout.js
+
 ├── .gitignore
+
 ├── package.json
+
 └── README.md
 
 
@@ -71,11 +81,11 @@ fingerprintquality/
 ## 🔧 Installation & Running Locally
 
 
-git clone https://github.com/your-username/Finger-Print-Quality-Detector.git
-cd fingerprintquality
-npm install
-npm run dev
-Visit: http://localhost:3000
+- git clone https://github.com/your-username/Finger-Print-Quality-Detector.git
+- cd fingerprintquality
+- npm install
+- npm run dev
+- Visit: http://localhost:3000
 
 ## Future Improvements
 Allow batch uploads.
